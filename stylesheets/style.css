@@ -1,0 +1,30 @@
+div{
+	width: 40%;
+	border: solid black;
+	height:100px;
+	margin:25px;
+	background-color: cyan;
+}
+#one{
+	position: relative;
+	left:350px;
+}	
+#two{
+	display: inline-block;
+}
+#three{
+	display: inline-block;
+}
+.parent{
+	position:relative;
+}
+.child{
+	width: 30px;
+	border: solid black 1px;
+	height:30px;
+	background-color: pink;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	z-index: 100;
+}
