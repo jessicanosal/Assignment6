@@ -7,7 +7,8 @@ div{
 }
 #one{
 	position: relative;
-	left:350px;
+	margin-left: auto;
+	margin-right: auto;
 }	
 #two{
 	display: inline-block;
